@@ -6,7 +6,7 @@
 
     # Create a new file named admin.py by running the following command.
 
-    # touch admin.py
+    # touch Kafka_admin.py
 from kafka.admin import KafkaAdminClient,NewTopic
 admin_client = KafkaAdminClient(bootstrap_servers="localhost:9092", client_id='test')
 topic_list = []
